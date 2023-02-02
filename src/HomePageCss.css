@@ -1,0 +1,160 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(194, 187, 187);
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #4a4749;
+}
+
+.form-select:hover {
+    background-color: #4a4749;
+}
+
+
+.form-select{
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 87.6%;
+    height: 100%;
+}
+
+
+.home-page-container {
+    flex-direction: column;
+    align-items:center;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.home-page-title {
+    float: left;
+    font-size: 25px;
+    font-weight:lighter;
+    color: white;
+    font-family:fantasy;
+    margin-bottom: 15px;
+    align-items: stretch;
+}
+
+header {
+    color: white;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items:center;
+    margin: -20px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+
+.featured-products-container {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.featured-product-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    display:initial;
+}
+
+.featured-product-item img {
+    width: auto;
+    height: auto;
+}
+
+
+.featured-product-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.featured-product-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Icone{
+    width: 60px;
+    height: 60px;
+    margin-left: 0%;
+}
+.panier{
+    margin-left: 235%;
+}
+
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.thank-you-header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.thank-you-message {
+    font-size: 18px;
+    text-align: center;
+}
